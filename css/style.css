@@ -64,7 +64,7 @@ input[type="checkbox"].toggle:checked + label::before{
     padding: 100px 120px;
     max-width: 1440px;
     margin: 0px auto;
-}
+}   
 .hello{
     margin-left: 50px;
 }
@@ -282,10 +282,16 @@ img {
 
 .body-dark{
     background-color:#191e27 !important;
-    color: #afafbf;
+    color: #fff;
 }
 
 @media ( Width <= 767px){
+    .hero{
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 60px;
+        padding-top: 20px;
+    }
     section{
         display: block;
         padding: 50px 35px;
@@ -384,6 +390,12 @@ img {
 
 
     @media screen and (width <= 480px){
+        .hero{
+            display:flex;
+            justify-content: flex-end;
+            padding-right: 60px;
+            padding-top: 20px;
+        }
         .first-part{
            padding: 0;
             font-size: .8rem !important;
@@ -411,7 +423,6 @@ img {
         .section-title {
             text-align: left;
             width: auto;
-
         }
         .experience .job .time-place {
             display: block;
@@ -470,9 +481,109 @@ img {
             display: block !important ;
         }
         .experience .job-time {
-            font-size: .8rem;
+            font-size: .8rem !important;
         }
 
         }
+    
+        @media screen and (width <= 380px){
+            .hero{
+                display:flex;
+                justify-content: flex-end;
+                padding-right: 60px;
+                padding-top: 20px;
+            }
+            .first-part{
+               padding: 0;
+                font-size: .8rem !important;
+            }
+            .hello .info h2{
+                font-size: .7rem !important;
+            }
+            .first-part h1 h2 {
+                width: 25px !important;
+                height: 25px  !important;
+            }
+            .link{
+                font-size: 1rem;
+            }
+            section{
+                padding: 50px 35px;
+                display: block
+            }
+            .experience .job-time {
+                font-size: .8rem;
+            }
+            .section-content {
+                padding-left: 30px;
+            }
+            .section-title {
+                text-align: left;
+                width: auto;
+    
+            }
+            .experience .job .time-place {
+                display: block;
+            }
+            .footer {
+                padding: 50px 30px;
+            }
+            .footer-copyright .top {
+                display: block;
+            }
+            .footer-copyright .bottom, .footer-copyright .top {
+                display: block;
+            }
+            
+            #fa {
+                max-width: 100%;
+                vertical-align: middle;
+            }
+            .back-to-top{
+                bottom: 15px;
+                right: 3px;
+            }
+            .footer-copyright .bottom, .footer-copyright .top{
+                display: inline-block;
+            }
+    
+            .footer-links #fa{
+            display: inline-block;
+            color:  rgb(118, 118, 233);
+            width: 22px;
+            }
+            .footer-links a:hover{
+            border:0;
+            }
+    
+            .footer-links{
+                display: flex;
+                justify-content: center;
+            }
+    
+            .footer-links a{
+                margin: 10px auto;
+            }
+            .footer-links .text{
+                display: none !important;
+            }
+            .footer-links #fa{
+                display:inline-block;   
+            }
+            .back-to-top{
+                bottom: 20px;
+                right: 7px;
+                width: 35px;
+            }
+            .time-place {
+                display: block !important ;
+            }
+            .experience .job-time {
+                font-size: .8rem !important;
+            }
+    
+            }
+        
+    
     
 
