@@ -285,7 +285,7 @@ img {
     color: #fff;
 }
 
-@media ( Width <= 767px){
+@media screen and ( Width <= 767px){
     .hero{
         display:flex;
         justify-content: flex-end;
