@@ -289,7 +289,7 @@ img {
 }
 
 
-    @media screen and ( Width <= 934px){
+    @media screen and ( Width <= 945px){
         .hero{
             display:flex;
             justify-content: flex-end;
