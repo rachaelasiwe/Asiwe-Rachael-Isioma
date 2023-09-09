@@ -288,6 +288,110 @@ img {
     color: #fff;
 }
 
+
+    @media screen and ( Width <= 934px){
+        .hero{
+            display:flex;
+            justify-content: flex-end;
+            padding-right: 60px;
+            padding-top: 20px;
+        }
+        section{
+            display: block;
+            padding: 50px 35px;
+        }
+        .first-part{
+            padding: 0;
+            font-size: 1.8rem;
+        }
+
+        h1,h2,h3{
+            font-size: 1rem !important;
+        }
+
+        .info.h2{
+            flex-wrap: wrap;
+        }
+        .link{
+            display: block;
+        }
+        .link h3{
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+        .link a{
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-size: 1rem;
+        }
+        
+        .section-title{
+            text-align: left;
+            width: auto;
+            padding-left: 20px;
+        }
+        .section-content{
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+        }
+        .skillz{
+            flex-wrap: wrap;
+        }
+        .skillz-category{
+            width: 47%;
+            margin-right: 5px;
+            margin-bottom: 25px;
+        }
+
+        .footer{
+            display: block ;
+            padding:  70px 40px;
+        }
+        .footer-copyright{
+            width: auto;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .footer-copyright .bottom, .footer-copyright .top{
+                display: inline-block;
+            }
+
+        .footer-links #fa{
+            display: inline-block;
+            color:  rgb(118, 118, 233)
+        }
+        .footer-links a:hover{
+        border:0;
+        }
+
+        .footer-links{
+            display: flex;
+            justify-content: center;
+        }
+        .footer-links a{
+            margin: 10px 0;
+        }
+        .footer-links .text{
+            display: none !important;
+        }
+        .footer-links #fa{
+            display:inline-block;   
+        }
+        .back-to-top{
+            bottom: 20px;
+            right: 7px;
+            width: 35px;
+        }
+    }
+
 @media screen and ( Width <= 767px){
     .hero{
         display:flex;
